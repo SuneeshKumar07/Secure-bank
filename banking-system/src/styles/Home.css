@@ -1,0 +1,45 @@
+/* Home Page Styling */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.home-container h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.home-container p {
+    
+    font-size: 1.2rem;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+}
+
+/* Style for Links */
+.home-container a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    transition: background 0.3s ease;
+    width: 20rem;
+    box-shadow: 0 0 10px 3px rgb(98, 124, 241);
+}
+
+.home-container a:hover {
+    background-color: #0056b3;
+}

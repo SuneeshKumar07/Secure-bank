@@ -1,0 +1,28 @@
+/* Customer Dashboard Container */
+.customer-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #3438a8;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+
+}
+
+.customer-dashboard-container h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Transactions Section */
+.transactions-container {
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}

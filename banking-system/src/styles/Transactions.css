@@ -1,0 +1,93 @@
+/* Transactions Container */
+.transactions-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border: 2px solid rgb(72, 71, 71);
+    box-shadow: 0 0 15px 2px rgb(133, 128, 128);
+}
+
+/* Heading */
+.transactions-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+
+.balance {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.transaction-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.transaction-buttons button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.transaction-buttons button:first-of-type {
+    background: #28a745;
+    color: white;
+}
+
+.transaction-buttons button:first-of-type:hover {
+    background: #218838;
+    transform: scale(1.05);
+}
+
+.transaction-buttons button:last-of-type {
+    background: #dc3545;
+    color: white;
+}
+
+.transaction-buttons button:last-of-type:hover {
+    background: #c82333;
+    transform: scale(1.05);
+}
+
+/* Transactions List */
+.transactions-list {
+    list-style: none;
+    padding: 0;
+}
+
+.transactions-list li {
+    background: #f8f9fa;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.transactions-list li:nth-child(odd) {
+    background: #e9ecef;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .transactions-container {
+        width: 95%;
+        padding: 15px;
+    }
+}

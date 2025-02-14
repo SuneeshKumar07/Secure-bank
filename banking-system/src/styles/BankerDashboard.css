@@ -1,0 +1,118 @@
+/* Styles for the Banker Dashboard Page */
+.banker-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #3438a8;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    box-shadow: 0 0 15px 2px rgb(133, 128, 128);
+}
+
+.banker-dashboard-container h1 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Styles for the Banker Dashboard Component */
+.banker-dashboard {
+    width: 90%;
+    max-width: 1200px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 2px rgb(133, 128, 128);
+}
+
+
+.bankerdash{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .banker-dashboard{
+    width: 50rem;
+  }
+/* BankerDashboard.css */
+
+.bankerdash ul {
+    list-style: none;
+    padding: 0;
+}
+
+.bankerdash ul li {
+    list-style: none;
+    border: 2px solid black;
+    width: 20rem;
+    text-align: center;
+    margin: 0.5rem;
+    padding: 0.2rem;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.5rem;
+    transition: 0.3s ease;
+}
+
+.bankerdash ul li:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    max-width: 90%;
+}
+
+.modal h3 {
+    margin-bottom: 10px;
+}
+
+.transaction-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.transaction-table th, .transaction-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.transaction-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.close-button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #ff4d4d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.close-button:hover {
+    background-color: #cc0000;
+}
+
+  
